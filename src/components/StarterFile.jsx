@@ -2,10 +2,11 @@ import { useState } from "react";
 import reactLogo from "../assets/react.svg";
 import viteLogo from "../assets/vite.svg";
 import React from "react";
+import "./start.css"
 function StarterFile() {
   const [count, setCount] = useState(0);
   return (
-    <div className="h-full w-full  pt-10  space-y-10">
+    <div className="starter h-full w-full  pt-10  space-y-10">
       <div className="flex justify-center my-10">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
