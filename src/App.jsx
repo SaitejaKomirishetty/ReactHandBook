@@ -5,7 +5,7 @@ import Start from "./pages/Start";
 
 function App() {
   return (
-    <>
+    <> 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/start' element={<Start />} />
